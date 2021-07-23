@@ -1,0 +1,53 @@
+.alert-box {
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+    color: red;
+}
+.login-form {
+    margin: auto;
+    margin-top: 15rem;
+    width: 30vw;
+    min-width: 20rem;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+
+    .title {
+        background-color: #f5f5f5;
+        padding: 1rem;
+        border-bottom: 1px solid #d0d0d0;
+        font-size: 1.2rem;
+    }
+    form {
+        width: 100%;
+        padding: 2rem;
+
+        input {
+            width: 100%;
+            border: 1px solid #d0d0d0;
+            border-radius: 5px;
+            height: 3rem;
+            padding-left: 1vw;
+
+            &:nth-child(2) {
+                margin-top: 1rem;
+            }
+        }
+        button {
+            background-color: #00c960;
+            width: 100%;
+            padding: 0.8rem 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 1.5rem;
+            color: white;
+            font-size: 1.2rem;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: #00b658;
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+node_modules
+.dockerignore
+request.http
+.env.example
